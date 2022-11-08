@@ -1,0 +1,9 @@
+@media screen and (min-width: 800px) {
+    body {
+        background: url('../../img/bg-header-desktop.png') no-repeat, var(--branco);
+        background-size: contain;
+        background-position: top;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+}

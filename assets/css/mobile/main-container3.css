@@ -1,0 +1,30 @@
+.corpo__container3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.topico__item--icone {
+    align-self: center;
+}
+
+.topicos__item:nth-child(1) .topico__item--icone {
+    background: url('../../img/icon-blacklist.svg') no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.topicos__item:nth-child(2) .topico__item--icone {
+    background: url('../../img/icon-text.svg') no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.topicos__item:nth-child(3) .topico__item--icone {
+    background: url('../../img/icon-preview.svg') no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}

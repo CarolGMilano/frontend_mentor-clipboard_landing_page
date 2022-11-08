@@ -1,0 +1,32 @@
+@import url('mobile/body.css');
+@import url('mobile/header.css');
+@import url('mobile/main.css');
+@import url('mobile/main-destaques.css');
+@import url('mobile/main-container1.css');
+@import url('mobile/main-container2.css');
+@import url('mobile/main-container3.css');
+@import url('mobile/main-parceiros.css');
+@import url('mobile/main-download.css');
+@import url('mobile/footer.css');
+
+@import url('desktop/body.css');
+@import url('desktop/main.css');
+@import url('desktop/main-destaques.css');
+@import url('desktop/main-container1.css');
+@import url('desktop/main-container2.css');
+@import url('desktop/main-container3.css');
+@import url('desktop/main-parceiros.css');
+@import url('desktop/footer.css');
+
+:root {
+    --azul: hsl(233, 100%, 69%);
+    --azul_borda: hsl(233, 51%, 53%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza: hsl(202, 11%, 66%);
+    --cinza_escuro: hsl(210, 10%, 33%);
+    --creme: hsl(220, 17%, 96%);
+    --turquesa: hsl(171, 66%, 44%);
+    --turquesa_borda: hsl(171, 68%, 35%);
+
+    --fonte: 'Bai Jamjuree', sans-serif;
+}

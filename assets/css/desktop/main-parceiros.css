@@ -1,0 +1,8 @@
+@media screen and (min-width: 800px) {
+    .corpo__parceiros {
+        width: 60%;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 1rem;
+    }
+}

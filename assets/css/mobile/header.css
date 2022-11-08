@@ -1,0 +1,11 @@
+.cabecalho {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    width: 100px;
+}

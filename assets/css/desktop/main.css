@@ -1,0 +1,39 @@
+@media screen and (min-width: 800px) {
+    .corpo {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .citacoes {
+        width: 600px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .destaque__botoes {
+        align-self: center;
+        flex-direction: row;
+        column-gap: 1.5rem;
+    }
+
+    .destaque__botoes--ios,
+    .destaque__botoes--mac {
+        width: 200px;
+        border-radius: 25px;
+        transition: .3s;
+    }
+
+    .destaque__botoes--ios:hover {
+        cursor: pointer;
+        background-color: var(--turquesa_borda);
+        border-bottom: 3px solid var(--turquesa);
+    }
+
+    .destaque__botoes--mac:hover {
+        cursor: pointer;
+        background-color: var(--azul_borda);
+        border-bottom: 3px solid var(--azul);
+    }
+}

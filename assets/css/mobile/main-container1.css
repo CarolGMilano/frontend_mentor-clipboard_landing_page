@@ -1,0 +1,7 @@
+.corpo__container1,
+.container1__topicos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+

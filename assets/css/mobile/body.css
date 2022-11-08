@@ -1,0 +1,6 @@
+body {
+    background: url('../../img/bg-header-mobile.png') no-repeat, var(--branco);
+    background-size: contain;
+    background-position: top;
+    font-family: var(--fonte);
+}

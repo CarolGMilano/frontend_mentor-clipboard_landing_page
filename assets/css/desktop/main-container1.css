@@ -1,0 +1,30 @@
+@media screen and (min-width: 800px) {
+    .container1__topicos {
+        flex-direction: row; 
+        column-gap: 7rem;
+        width: 100vw;
+    }
+
+    .container1__topicos--img {
+        max-width: 900px;
+        width: 50%;
+        margin-left: -50px;
+    }
+
+    .container1__topicos .topicos {
+        align-self: center;
+        overflow-x: hidden;
+    }
+
+    .container1__topicos .topicos__item {
+        width: 360px;
+    }
+
+    .container1__topicos .topicos__item--titulo {
+      align-self: start;
+    }
+
+    .container1__topicos .topicos__item--texto {
+        text-align: start;
+    }
+}

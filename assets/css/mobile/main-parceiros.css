@@ -1,0 +1,11 @@
+.corpo__parceiros {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.parceiros__logo {
+    width: 110px;
+}
